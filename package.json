@@ -10,6 +10,7 @@
     "regenerator-runtime": "^0.13.7"
   },
   "devDependencies": {
+    "git-scripts": "^0.4.3",
     "sass": "^1.29.0"
   },
   "scripts": {
