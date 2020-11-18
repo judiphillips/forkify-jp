@@ -11,7 +11,13 @@
   },
   "devDependencies": {
     "git-scripts": "^0.4.3",
-    "sass": "^1.29.0"
+    "sass": "^1.29.0",
+    "surge": "latest"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./ --domain example-githooks.surge.sh"
+    }
   },
   "scripts": {
     "start": "parcel index.html",
