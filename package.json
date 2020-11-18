@@ -6,18 +6,12 @@
   "dependencies": {
     "core-js": "^3.7.0",
     "fractional": "^1.0.0",
-    "parcel": "^2.0.0-nightly.444",
+    "parcel": "^2.0.0-nightly.447",
     "regenerator-runtime": "^0.13.7"
   },
   "devDependencies": {
-    "git-scripts": "^0.4.3",
     "sass": "^1.29.0",
-    "surge": "latest"
-  },
-  "git": {
-    "scripts": {
-      "pre-push": "surge --project ./ --domain example-githooks.surge.sh"
-    }
+    "parcel": "6.14.5"
   },
   "scripts": {
     "start": "parcel index.html",
